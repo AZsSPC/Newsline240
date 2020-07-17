@@ -41,7 +41,7 @@ public class MainActivity extends Aztivity {
             id_pass = "verPas",         //FINAL
             id_key = "verKey",         //FINAL
             data_load_url =               //FINAL
-                    "https://raw.githubusercontent.com/AZsSPC/AZs240/master/usable/data_az.txt";
+                    "https://raw.githubusercontent.com/AZsSPC/Newsline240/master/usable/data_az.txt";
     public boolean isMenuVisible = false;
     public static SharedPreferences sp;
     private RecyclerView postRecView;
