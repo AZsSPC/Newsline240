@@ -30,18 +30,18 @@ public class MainActivity extends Aztivity {
             saveData = "data",            //CHANGEABLE
             saveCheat = "cheat",          //CHANGEABLE
             version = "4.3",              //CHANGEABLE
-            post_separator = "│",         //FINAL
+            post_separator = "~",         //FINAL
             id_moder = "isModer",         //FINAL
             id_url_posts = "urlPost",     //FINAL
             id_url_update = "urlUp",      //FINAL
             id_version = "version",       //FINAL
             id_v_info = "vInfo",          //FINAL
             id_cheat = "isCheat",         //FINAL
-            id_id = "verId",         //FINAL
-            id_pass = "verPas",         //FINAL
-            id_key = "verKey",         //FINAL
+            id_id = "verId",              //FINAL
+            id_pass = "verPas",           //FINAL
+            id_key = "verKey",            //FINAL
             data_load_url =               //FINAL
-                    "https://raw.githubusercontent.com/AZsSPC/Newsline240/master/usable/data_az.txt";
+                    "https://raw.githubusercontent.com/AZsSPC/Newsline240/master/usable/data.paz";
     public boolean isMenuVisible = false;
     public static SharedPreferences sp;
     private RecyclerView postRecView;
