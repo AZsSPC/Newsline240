@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/rw_bg"
+    tools:context=".MainActivity">
+
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/ms_rw"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:paddingLeft="8dp"
+        android:paddingRight="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ms_title" />
+
+    <include
+        android:id="@+id/ms_menu"
+        layout="@layout/fab_list"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ms_title" />
+
+    <TextView
+        android:id="@+id/ms_title"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary"
+        android:fontFamily="sans-serif-medium"
+        android:gravity="center_vertical"
+        android:padding="16dp"
+        android:text="@string/tab_name"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/ms_fab_menu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:onClick="menuFab"
+        app:fabSize="mini"
+        app:layout_constraintBottom_toBottomOf="@+id/ms_title"
+        app:layout_constraintEnd_toEndOf="@+id/ms_title"
+        app:layout_constraintTop_toTopOf="@+id/ms_title"
+        app:srcCompat="@drawable/ic_more" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

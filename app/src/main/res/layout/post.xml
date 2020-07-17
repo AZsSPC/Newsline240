@@ -1,0 +1,41 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/pt_lay"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="4dp"
+    android:layout_marginBottom="4dp"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/pt_author"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/err"
+        android:textAlignment="textEnd"
+        android:textColor="@color/tc_l"
+        android:textSize="12sp" />
+
+    <TextView
+        android:id="@+id/pt_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-medium"
+        android:padding="8dp"
+        android:text="@string/err"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/pt_post"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:autoLink="web"
+        android:linksClickable="true"
+        android:padding="8dp"
+        android:text="@string/err"
+        android:textColor="@color/tc_n" />
+
+</LinearLayout>

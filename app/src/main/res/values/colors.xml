@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#388E3C</color>
+    <color name="colorPrimaryDark">#1B5E20</color>
+    <color name="colorAccent">#F9A825</color>
+    <color name="white">#FFFFFF</color>
+    <color name="rw_bg">#E6F0E6</color>
+    <color name="t_system">#AAAAAA</color>
+    <color name="t_spy">#7EAABF</color>
+    <color name="t_normal">#7CB342</color>
+    <color name="t_alarm">#F4511E</color>
+    <color name="tc_n">#404040</color>
+    <color name="tc_l">#969696</color>
+</resources>
